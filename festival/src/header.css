@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    transition: all .3s;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo-brand{
+    min-height: 70px;
+    max-height: 80px;
+}
+.logo-brand-f{
+    min-height: 70px;
+    max-height: 80px;
+    padding-top: 15px;
+}
+.nav-link
+{
+    color:black;
+}
+.navbar{
+    color:black;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+}
+.responsive{
+    background-image: url(./IMG/princi.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+    text-align: center;
+}
+.responsive2{
+    padding-top: 90px;
+    min-height: 650px;
+    text-align: center;
+}
+.responsive3{
+    padding-top: 90px;
+    min-height: 650px;
+    text-align: center;
+}
+.responsive5{
+    padding-top: 90px;
+    min-height: 650px;
+    text-align: center;
+}
+footer {
+    padding: 10px 0;
+    text-align: center;
+    max-height: 100px;
+}
+
+footer a {
+    color: black;;
+}
+
+footer a:hover {
+    color: white;;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+    color:black;
+}
+.small
+{
+    color:black;
+}
+.conoce{
+    height: auto;
+}
+.conteiner{
+    text-align: center;
+}
