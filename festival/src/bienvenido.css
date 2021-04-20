@@ -1,0 +1,13 @@
+.responsive{
+    background-image: url(./IMG/princi.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    min-height: 800px;
+    color: white;
+    text-align: center;
+    background-position: center;
+}
+#btn_cono{
+    margin-top: 200px;
+}
