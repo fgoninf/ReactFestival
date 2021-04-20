@@ -5,8 +5,10 @@
     padding-top: 90px;
     min-height: 800px;
     color: white;
-    text-align: center;
+    justify-content: center;
     background-position: center;
+    display: center;
+    align-items: center;
 }
 #btn_cono{
     margin-top: 200px;

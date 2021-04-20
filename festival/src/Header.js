@@ -20,16 +20,16 @@ function Header() {
                                     <a className="nav-link" href="/">Bienvenido</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Conocenos</a>
+                                    <a className="nav-link" href="/Conocenos">Conocenos</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Galeria</a>
+                                    <a className="nav-link" href="/Galeria">Galeria</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Compañia De Teatro</a>
+                                    <a className="nav-link" href="/Compañia">Compañia De Teatro</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Contacto</a>
+                                    <a className="nav-link" href="/Contacto">Contacto</a>
                                 </li>
                             </ul>
                         </div>
