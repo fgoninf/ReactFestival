@@ -1,18 +1,14 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import emailjs from "emailjs-com";
-import Swal from 'sweetalert2';
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+
 function Contacto() {
 
     function sendEmail(e){
         emailjs.sendForm('gmail', 'template_ukh2r6n', e.target, 'user_AehHLruJFurZE84Qk85Jh')
         .then(function(response) {
-           
-            Swal.fire(
-                'Good job!',
-                'You clicked the button!',
-                'success'
-            );
+            console.log('SUCCESS!', response.status , response.text);   
         }, function(error) {
            console.log('FAILED...', error);
         });
@@ -55,7 +51,7 @@ function Contacto() {
                                     </div>
                                 </div>
                                 <div id="success"></div>
-                                    <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar Mensaje</button></div>
+                                    <div className="form-group"><button className="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar Mensaje</button></div>
                                 </div>
                         </div>
                     </form>
