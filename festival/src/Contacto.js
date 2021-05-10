@@ -10,7 +10,7 @@ function Contacto() {
     async function onSubmitForm(values){
         let config={
             method: 'post',
-            url: `${process.env.PUBLIC_URL}/api/contact`,
+            url: `http://localhost:8080/api/contacto/email`,
             headers:{
                 'Content-Type': 'application/json'
             },
@@ -18,6 +18,7 @@ function Contacto() {
         };
         try {
             const response = await axios(config);
+            alert(JSON.stringify(response.data));
             console.log(response);
         } catch (err) {
             console.log(err);
