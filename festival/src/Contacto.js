@@ -18,7 +18,6 @@ function Contacto() {
         };
         try {
             const response = await axios(config);
-            alert(JSON.stringify(response.data));
             console.log(response);
         } catch (err) {
             console.log(err);
